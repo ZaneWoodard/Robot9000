@@ -1,0 +1,8 @@
+name: Robot9000
+main: com.beastsmc.robot9000.Robot9000
+version: 0.1
+commands:
+   r9k:
+      usage: /r9k
+      permission: robot9000.use
+      permission-message: You do not have permission to use this command!
