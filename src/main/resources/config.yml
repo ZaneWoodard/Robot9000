@@ -1,0 +1,8 @@
+#To calculate the penalty(mute time) a player receives, we use this rough equation:
+# seconds = penality-base * penalty-multiplier^((number of violations) - (warning-count))
+#The number of unoriginal messages players can send before being penalized for the first time
+warning-count: 1
+#The base penalty(in seconds) users are muted for, for their first offence
+penality-base: 30
+#Each subsequent offense multiplies the base penality by this number
+penalty-multiplier: 4
